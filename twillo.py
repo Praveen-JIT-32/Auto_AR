@@ -12,7 +12,7 @@ TWILIO_PHONE_NUMBER = os.getenv("TWILIO_PHONE_NUMBER")
 TO_NUMBER = os.getenv("TO_NUMBER")
 NGROK_URL = os.getenv("NGROK_URL")
 
-TWIML_URL = f"https://{NGROK_URL}/voice"
+TWIML_URL = f"{NGROK_URL}/voice"
 
 print("="*60)
 print("📞 Initiating Call")
